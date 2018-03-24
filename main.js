@@ -2,9 +2,9 @@ const path = require('path')
 const glob = require('glob')
 const {app, BrowserWindow} = require('electron')
 const autoUpdater = require('./auto-updater')
-
 const debug = /--debug/.test(process.argv[2])
 
+require('electron-reload')(__dirname);
 if (process.mas) app.setName('Electron APIs')
 
 let mainWindow = null
