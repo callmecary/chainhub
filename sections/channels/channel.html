@@ -9,15 +9,11 @@
         </div>
       </header>
       <button type="button" id="fetch-btn" class="demo-button">Fetch data</button>
-  
-  
+      <div id="data"></div>
 
-  
-
-  
       <script type="text/javascript">
-        require('babel-core/register')
-        require('./renderer-process/channels/fetch-data')
+        require("babel-register")
+        require("./renderer-process/channels/fetch-data")
       </script>
   
     </section>
