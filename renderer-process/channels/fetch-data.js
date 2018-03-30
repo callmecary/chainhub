@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 const fetchBtn = document.getElementById('fetch-btn')
 
-//var tuna = require('./controller.js');
+var tuna = require('./controller.js');
 
 fetchBtn.addEventListener('click', (event) => {
   console.log("Button clicked!");
