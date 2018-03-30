@@ -7,6 +7,7 @@ var tuna = require('./controller.js');
 
 fetchBtn.addEventListener('click', (event) => {
   console.log("Button clicked!");
+  tuna.get_all_tuna();
 })
 
 class Table extends React.Component {

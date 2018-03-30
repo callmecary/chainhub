@@ -10,6 +10,7 @@
 var bodyParser    = require('body-parser');
 var Fabric_Client = require('fabric-client');
 var path          = require('path');
+var os = require('os');
 
 module.exports = (function() {
 return{
